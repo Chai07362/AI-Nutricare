@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 from gemini_helper import get_gemini_response
 
-st.set_page_config(page_title="Calories Calculator")
-st.header("🍎 Calories Calculator")
+st.set_page_config(page_title="AI Calories Calculator")
+st.header("🍎AI Calories Calculator")
 
 uploaded_file = st.file_uploader("Choose a food image...", type=["jpg","jpeg","png"])
 
@@ -38,3 +38,4 @@ if submit and uploaded_file:
         response = get_gemini_response(input_prompt, image_data)
     st.subheader("🔎 Analysis")
     st.write(response)
+
