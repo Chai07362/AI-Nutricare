@@ -31,7 +31,7 @@ Create Streamlit secrets:
 GEMINI_API_KEY = "AIzaSyCch2f2a2_VifVi31wR4f3ht7gz8sVxdf4"
 
 ## 🌍 Live Demo
-👉 https://ai-nutricare.streamlit.app
+👉 https://ai-nutricare-analysis.streamlit.app
 
 ## 📌 Use Case
 This project helps users quickly understand the nutritional value of food items using AI, making it useful for fitness enthusiasts, diet-conscious individuals,
